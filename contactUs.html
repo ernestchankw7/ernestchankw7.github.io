@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body id="contact-us">
+    <header id="header">
+        <div id="container">
+            <img src="wx.svg" width="100" id="logo"> 
+            <nav id="nav">
+                <a href="L03_index.html">Home</a> |
+                <div id="dropdown">
+                    <a href="packageTours.html" id="dropList">Package Tours</a>
+                    <div id="dropdown-content">
+                        <a href="packageTour1.html">Bali Tour</a>
+                        <a href="//">Vietname Tour</a>
+                        <a href="//">Japan Tour</a>
+                    </div> |
+                </div>
+                <a href="//">Rediscover Singapore</a> |
+                <a href="//">Cruises</a> |
+                <a href="contactUs.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <video loop muted autoplay id="videoContactUs">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+
+    <h1 id="contactUsHeading">Contact us</h1>
+    
+    <article id="articleContactUs">
+    <form action="//" method="post" id="contactUsForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </article>  
+
+    <footer id="footer">
+        &copy;World Xplore
+    </footer>
+</body>
+</html>
